@@ -7,6 +7,10 @@ configure :development do
   BetterErrors.application_root = File.expand_path('..', __FILE__)
 end
 
+# le serveur est sur mon ordi en local
+
 get '/' do
-  'Hello world!'
+  'Hello you!'
 end
+
+# stopped at the views part on https://github.com/lewagon/sinatra-101#readme
